@@ -12,8 +12,8 @@ strategy:
       imageName: 'ubuntu-latest'
     Visual Studio 2022:
       imageName: 'windows-2022'
-    High Sierra:
-      imageName: 'macos-10.13'
+    Monterrey:
+      imageName: 'macOS-latest'
 
 pool:
   vmImage: $(imageName)
